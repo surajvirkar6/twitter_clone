@@ -1,0 +1,13 @@
+.buttons{
+    @apply text-xl font-normal cursor-pointer px-3 py-2 hover:bg-blue-200 rounded-full hover:font-semibold hover:shadow-md;
+}
+
+.bold{
+    @apply font-bold
+}
+
+@media screen and (max-width : 678px) {
+    .leftSection{
+        display: none;
+    }
+}

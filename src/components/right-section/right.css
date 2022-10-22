@@ -1,0 +1,8 @@
+.dateBtn{
+    @apply cursor-pointer bg-blue-400 text-white px-4 py-2 rounded-sm text-sm font-medium shadow-md;
+}
+@media screen and (max-width : 678px) {
+    .rightSection{
+        display: none;
+    }
+}
