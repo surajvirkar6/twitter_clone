@@ -31,7 +31,11 @@ function MiddleSection() {
   }, []);
 
   function getData(){
-    return Axios.get("http://www.mocky.io/v2/5d1ef97d310000552febe99d").then(
+    return Axios.get("http://www.mocky.io/v2/5d1ef97d310000552febe99d", {
+      headers: {
+        "Content-Type": "application/json"
+      }
+    }).then(
       (res: any) => {
         setdata(res.data);
         return res.data
